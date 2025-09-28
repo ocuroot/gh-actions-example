@@ -1,0 +1,17 @@
+{
+  "kind": "ref",
+  "body_type": "models.RepoConfig",
+  "links": [
+    "github.com/ocuroot/gh-actions-example/-/repo.ocu.star/@"
+  ],
+  "body": {
+    "Remotes": [
+      {
+        "Name": "origin",
+        "URL": "git@github.com:ocuroot/gh-actions-example.git",
+        "PushURL": "git@github.com:ocuroot/gh-actions-example.git"
+      }
+    ],
+    "source": "CmRlZiByZXBvX3VybCgpOgogICAgZW52X3ZhcnMgPSBlbnYoKQogICAgaWYgIkdIX1RPS0VOIiBub3QgaW4gZW52X3ZhcnM6CiAgICAgICAgcmV0dXJuIGhvc3Quc2hlbGwoImdpdCByZW1vdGUgZ2V0LXVybCBvcmlnaW4iKS5zdGRvdXQuc3RyaXAoKQogICAgIyBBbHdheXMgdXNlIGh0dHBzIGZvciBjaGVja291dCB3aXRoIEdpdEh1YiBhY3Rpb25zCiAgICByZXR1cm4gImh0dHBzOi8veC1hY2Nlc3MtdG9rZW46e31AZ2l0aHViLmNvbS9vY3Vyb290L2doLWFjdGlvbnMtZGVtby5naXQiLmZvcm1hdChlbnZfdmFyc1siR0hfVE9LRU4iXSkKCnJlbW90ZSA9IHJlcG9fdXJsKCkKCnJlbW90ZXMoW3JlbW90ZV0pCgpzdG9yZS5zZXQoCiAgICBzdG9yZS5naXQocmVtb3RlLCBicmFuY2g9InN0YXRlIiksCiAgICBpbnRlbnQ9c3RvcmUuZ2l0KHJlbW90ZSwgYnJhbmNoPSJpbnRlbnQiKQop"
+  }
+}
