@@ -20,6 +20,6 @@ task(
     "approval",
     inputs={
         "approve": ref("./custom/approve"),
-        "message": ref("./task/build#outputs/message")
+        "message": ref("./task/build#output/message")
     }
 )
