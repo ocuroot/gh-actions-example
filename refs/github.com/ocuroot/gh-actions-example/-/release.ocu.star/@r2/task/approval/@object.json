@@ -1,0 +1,25 @@
+{
+  "kind": "ref",
+  "body_type": "models.Task",
+  "links": [
+    "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@/task/approval"
+  ],
+  "body": {
+    "run_ref": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r2/task/approval/1",
+    "type": "task",
+    "release": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r2",
+    "input": {
+      "approve": {
+        "ref": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r2/custom/approve",
+        "value": "1"
+      },
+      "message": {
+        "ref": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r2/task/build#output/message",
+        "value": "Hello"
+      }
+    },
+    "output": {
+      "message": "Hello"
+    }
+  }
+}
