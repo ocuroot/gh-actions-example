@@ -4,7 +4,7 @@ def repo_url():
     if "GH_TOKEN" not in env_vars:
         return host.shell("git remote get-url origin").stdout.strip()
     # Always use https for checkout with GitHub actions
-    return "https://x-access-token:{}@github.com/ocuroot/gh-actions-demo.git".format(env_vars["GH_TOKEN"])
+    return "https://x-access-token:{}@github.com/ocuroot/gh-actions-example.git".format(env_vars["GH_TOKEN"])
 
 remote = repo_url()
 
