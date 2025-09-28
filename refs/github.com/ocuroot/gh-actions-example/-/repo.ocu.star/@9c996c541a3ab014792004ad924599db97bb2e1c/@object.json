@@ -1,6 +1,9 @@
 {
   "kind": "ref",
   "body_type": "models.RepoConfig",
+  "links": [
+    "github.com/ocuroot/gh-actions-example/-/repo.ocu.star/@"
+  ],
   "body": {
     "Remotes": [
       {
