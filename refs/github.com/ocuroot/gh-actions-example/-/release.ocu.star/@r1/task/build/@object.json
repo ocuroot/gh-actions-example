@@ -1,9 +1,6 @@
 {
   "kind": "ref",
   "body_type": "models.Task",
-  "links": [
-    "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@/task/build"
-  ],
   "body": {
     "run_ref": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r1/task/build/1",
     "type": "task",

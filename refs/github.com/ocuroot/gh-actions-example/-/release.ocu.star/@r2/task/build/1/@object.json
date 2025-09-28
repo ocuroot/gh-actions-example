@@ -1,6 +1,6 @@
 {
   "kind": "ref",
-  "body_type": "models.Run",
+  "body_type": "*models.Run",
   "body": {
     "type": "task",
     "release": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r2",
@@ -13,6 +13,8 @@
         "inputs": {}
       }
     ],
-    "output": null
+    "output": {
+      "message": "Hello"
+    }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-28T17:12:31.737152116Z",
+      "message": "build",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_build"
+      },
+      "stream": 0
+    }
+  ]
+}
