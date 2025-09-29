@@ -1,0 +1,28 @@
+{
+  "kind": "ref",
+  "body_type": "models.Run",
+  "body": {
+    "type": "task",
+    "release": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r3",
+    "functions": [
+      {
+        "fn": {
+          "name": "_approval",
+          "pos": "release.ocu.star:11:1"
+        },
+        "dependencies": [
+          "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r3/task/build/*/status/complete"
+        ],
+        "inputs": {
+          "approve": {
+            "ref": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r3/custom/approve"
+          },
+          "message": {
+            "ref": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r3/task/build#output/message"
+          }
+        }
+      }
+    ],
+    "output": null
+  }
+}

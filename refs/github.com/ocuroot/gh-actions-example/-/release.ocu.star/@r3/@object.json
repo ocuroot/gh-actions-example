@@ -1,0 +1,62 @@
+{
+  "kind": "ref",
+  "body_type": "release.ReleaseInfo",
+  "body": {
+    "commit": "9a48436f5ce0470417733478c96a1535c2372ea0",
+    "package": {
+      "functions": {
+        "_approval/release.ocu.star:11:1": {
+          "function": {
+            "name": "_approval",
+            "pos": "release.ocu.star:11:1"
+          }
+        },
+        "_build/release.ocu.star:1:1": {
+          "function": {
+            "name": "_build",
+            "pos": "release.ocu.star:1:1"
+          }
+        }
+      },
+      "phases": [
+        {
+          "name": "",
+          "tasks": [
+            {
+              "task": {
+                "name": "build",
+                "inputs": {},
+                "fn": {
+                  "name": "_build",
+                  "pos": "release.ocu.star:1:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "",
+          "tasks": [
+            {
+              "task": {
+                "name": "approval",
+                "inputs": {
+                  "approve": {
+                    "ref": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r3/custom/approve"
+                  },
+                  "message": {
+                    "ref": "github.com/ocuroot/gh-actions-example/-/release.ocu.star/@r3/task/build#output/message"
+                  }
+                },
+                "fn": {
+                  "name": "_approval",
+                  "pos": "release.ocu.star:11:1"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
