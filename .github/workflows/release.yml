@@ -18,7 +18,7 @@ jobs:
 
       - name: Download ocuroot binary
         run: |
-          curl -Lv https://github.com/ocuroot/ocuroot/releases/download/v0.3.15-2/ocuroot_linux-amd64.tar.gz -o ocuroot.tar.gz
+          curl -Lv https://github.com/ocuroot/ocuroot/releases/download/v0.3.16/ocuroot_linux-amd64.tar.gz -o ocuroot.tar.gz
           tar -xzf ocuroot.tar.gz
           chmod +x ocuroot
 
